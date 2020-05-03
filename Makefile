@@ -12,7 +12,7 @@ NASM_EXT ?= .asm
 OBJ_EXT ?= .o
 OUT_EXT ?= .img
 QEMU ?= qemu-system-i386 -drive 'file=$(RUN_FILE),format=raw' -serial mon:stdio -smp 2
-RUN ?= bios_hello_world
+RUN ?= tp2
 RUN_ARGS ?= -soundhw pcspk
 TMP_EXT ?= .tmp
 
